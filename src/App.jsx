@@ -1,6 +1,8 @@
-import "./App.css"
-import {Navbar} from "./Navbar"
-import {Footer} from "./Footer"
+
+
+
+import { Navbar } from "./components/layout/Navbar"
+import ItemListContainer from "./components/pages/ItemListContainer"
 
 
 const App = ()=>{
@@ -8,8 +10,7 @@ const App = ()=>{
   return (
     <div>
       <Navbar />
-      <h1 className="title">Es una prueba</h1>
-      <Footer />
+      <ItemListContainer greeting="¡Hola bienvenido al Centro de Estética!"/>
     </div>
 
 
